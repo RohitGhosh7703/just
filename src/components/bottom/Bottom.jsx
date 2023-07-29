@@ -4,17 +4,17 @@ import React, {useEffect} from "react";
 import Fade from "react-reveal/Fade";
 import Apple from "../Assets/apple-14.svg"
 import Google from "../Assets/google-play.svg"
-import WebFont from 'webfontloader';
+// import WebFont from 'webfontloader';
 
 
 function Bottom() {
-  useEffect(() => {
-    WebFont.load({
-      google: {
-        families: ['Barlow', 'Inter']
-      }
-    });
-   }, []);
+  // useEffect(() => {
+  //   WebFont.load({
+  //     google: {
+  //       families: ['Barlow', 'Inter']
+  //     }
+  //   });
+  //  }, []);
   return (
     
       <div className="bottom-section">
