@@ -2,7 +2,7 @@ import "./middle.css";
 import Phone from "../phone/phone";
 import React,{ useEffect } from "react";
 import Fade from "react-reveal/Fade";
-import {motion} from "framer-motion";
+// import {motion} from "framer-motion";
 import Home from "../Assets/Home.png";
 import Investment from "../Assets/Investment.png";
 import Coupons from "../Assets/Coupons.png";
