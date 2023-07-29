@@ -1,0 +1,49 @@
+.phone{
+    
+    height : 350px;
+    /* width : 163px; */
+    display: flex;
+    justify-content: center;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin:auto; */
+    /* width : 33.3%;  */
+    
+}
+
+.svg{
+    margin: auto;
+   
+    height : 350px;
+
+    
+    /* width :auto; */
+}
+
+.outercontainer{
+    border : 3px solid black;
+    border-radius : 30px;
+    height : 350px;
+    padding: 3px;
+    /* width : 170px; */
+    /* position: absolute; */
+}
+
+
+@media  screen and (max-width : 600px) {
+    .outercontainer{
+      height : 250px;
+      margin-top: 60px;
+      /* margin-top : 20px; */
+    }
+    
+}  
+
+@media  screen and (max-width : 400px) {
+    .outercontainer{
+      height : 250px;
+      /* margin-top : 40px; */
+    }
+    
+}  

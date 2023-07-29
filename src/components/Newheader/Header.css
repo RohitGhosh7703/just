@@ -1,0 +1,55 @@
+.header-section{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.header{
+    font-weight: 400;
+    font-size: 40px;
+    position: relative;
+    /* z-index: 1; */
+    justify-content: flex-start;
+    margin : 20px;
+}
+
+.menuicon{
+/* width : 3rem; */
+/* height : rem; */
+/* display: flex; */
+/* flex-direction: column;
+justify-content: center; */
+/* position: absolute; */
+/* right: 50px; */
+/* border-radius : 5px; */
+/* cursor: pointer; */
+}
+
+.buttonDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.join{
+    height : 3rem;
+    width : 5rem;
+    position: absolute;
+    right: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color :white;
+    cursor : pointer;
+    border : none;
+    font-weight: 700;
+    /* to */
+}
+
+.join:hover{
+    background-color: #66b3f1;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    border : none;
+}
+
+

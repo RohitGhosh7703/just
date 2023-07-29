@@ -1,0 +1,48 @@
+.element{
+    scale: 1.2;
+    position : absolute;
+
+    top: -550px; scroll-snap-stop: always;
+    /* bottom: 0; */
+    width : 100%;
+    transform-origin: 50% 98%;
+    transition-duration: 0.8s;
+    transition-timing-function:cubic-bezier(0.99999, 0.2, 0.165,1);
+}
+
+@media screen and (max-width: 950px){
+    .element{
+        /* scale: .; */
+        top: -250px;
+        /* bottom: 0; */
+        width : 100%;
+        transform-origin: 50% 98%;
+        transition-duration: 1s;
+        transition-timing-function:cubic-bezier(0.99999, 0.2, 0.165,1);
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .element{
+        scale: 1.6;
+        top: -50px;
+        /* bottom: 0; */
+        width : 100%;
+        transform-origin: 50% 98%;
+        transition-duration: 1s;
+        transition-timing-function:cubic-bezier(0.99999, 0.2, 0.165,1);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .element{
+        scale: 4.5;
+        top: 170px;
+        /* bottom: 0; */
+        width : 100%;
+        transform-origin: 50% 95%;
+        transition-duration: 1s;
+        transition-timing-function:cubic-bezier(0.99999, 0.2, 0.165,1);
+    }
+}
